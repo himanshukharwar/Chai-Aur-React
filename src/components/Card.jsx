@@ -5,13 +5,12 @@ export default function Card() {
   return (
     <div className="w-full flex flex-wrap justify-center bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="/">
-        {/* <img className="p-8 rounded-t-lg" src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-people-laptop-internet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product_image1" /> */}
         <img
           className="p-1 rounded-t-lg"
           src={
             themeMode === "dark"
-              ? "https://images.unsplash.com/photo-1642101373432-a9c683c34902?auto=format&fit=crop&q=80&w=1033&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              : "https://images.unsplash.com/photo-1575125069494-6a0c5819d340?auto=format&fit=crop&q=80&w=1033&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              ? "https://images.unsplash.com/photo-1642101373432-a9c683c34902?auto=format&fit=crop&q=80&w=1033&h=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              : "https://images.unsplash.com/photo-1575125069494-6a0c5819d340?auto=format&fit=crop&q=80&w=1033&h=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           }
           alt="product_image1"
         />
